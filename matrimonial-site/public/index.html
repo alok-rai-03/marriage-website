@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Find Your Perfect Match</h1>
+        <form action="/search" method="GET">
+            <input type="text" name="query" placeholder="Search by name, location, or preferences" required>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="featured">
+        <h2>Featured Profiles</h2>
+        <div class="profile-card">
+            <img src="profile1.jpg" alt="Profile 1">
+            <h3>John Doe</h3>
+            <p>Age: 30 | Location: NY</p>
+            <a href="/profile/1">View Profile</a>
+        </div>
+        <!-- More profiles can go here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Marriage.com</p>
+    </footer>
+</body>
+</html>
